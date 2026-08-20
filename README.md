@@ -226,14 +226,6 @@ Tests cover:
 | `NEXT_PUBLIC_AUTH0_AUDIENCE` | Auth0 API identifier |
 | `NEXT_PUBLIC_API_URL` | Django API base URL |
 
-## Important Notes
-
-- Never commit `.env` or `.env.local`.
-- Never commit Auth0 Client Secrets, Django production secrets, or database credentials.
-- `.env.example` and `.env.local.example` contain placeholders only.
-- SQLite is used for local development.
-- A live deployment is optional for this assignment.
-
 ## Author
 
 Deepak Jha
